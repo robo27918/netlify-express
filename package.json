@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"./node_modules/.bin/netlify-lambda serve src",
+    "start": "./node_modules/.bin/netlify-lambda serve src",
     "build": "netlify-lambda build src"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^3.1.10",
     "express": "^4.21.0",
     "netlify-lambda": "^2.0.16",
     "serverless-http": "^3.2.0"
